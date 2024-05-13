@@ -1,10 +1,19 @@
-num = 7
-
+num = 3
 cont = 0
+espaços = 1
+a = ''
 
-for n in range(1,num):
-    if n % 2 == 1:
-        cont += 1
+for c in range(1,num + 1):
+    if num > 1:
+        if c == 1:
+            a += 'I\n '
+        if c > 1 and c < num:
+            a += 'I\n '
+            a += ' ' * espaços
+            espaços += 1
+        if c == num:
+            a += 'I'
+    else:
+        a += 'I'
 
-
-print(cont)
+print(a)
