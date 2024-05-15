@@ -1,6 +1,7 @@
 #link of the challenge
 #https://www.codewars.com/kata/5b4e779c578c6a898e0005c5
 
+
 num = 3
 cont = 0
 espaços = 1
